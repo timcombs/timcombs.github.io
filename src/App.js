@@ -3,6 +3,7 @@ import React from 'react';
 import Info from './Info';
 import TeamProj from './TeamProj';
 import ArtProj from './ArtProj';
+import Quotes from './Quotes';
 
 import './App.css';
 
@@ -17,6 +18,7 @@ class App extends React.Component {
 
   async componentDidMount() {
     const marxHeadmonURL = 'https://raw.githubusercontent.com/timcombs/marx-headmon/master/quotes.json';
+    console.log('starting fetch');
 
     try {
       const blob = await fetch(marxHeadmonURL);
@@ -26,8 +28,22 @@ class App extends React.Component {
         quotes,
         currQuote: this.getQuote(quotes)
       });
+      await console.log(this.state);
     }catch(err){
       console.log(err);
+    }
+  }
+
+  handleClick(e) {
+    const { quotes, currQuote: { quote, author } } = this.state;
+    const clicked = e.target.name;
+
+    if (clicked === 'quote') {
+      this.setState({
+        currQuote: this.getQuote(quotes)
+      });
+    }else{
+      alert('oops!');
     }
   }
 
@@ -41,8 +57,11 @@ class App extends React.Component {
     return (
       <div className="App">
         <Info />
+        <Quotes currQuote={this.state.currQuote}
+                onClick={(e) => this.handleClick(e)}/>
         <TeamProj />
         <ArtProj />
+
       </div>
     );
   }
