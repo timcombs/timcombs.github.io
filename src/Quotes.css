@@ -2,30 +2,47 @@
   margin: 0 2vw;
   border: 1px solid blue;
   display: grid;
-  grid-template-columns: repeat(4, 1fr);
-  grid-template-areas:
-    "a a a a"
-    "b b b b"
-    "c d d d"
-    "e f f f";
-}
-
-.quotebutton {
-  grid-area: e;
-  align-self: end;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(4, 0.5fr);
+  /* grid-template-areas:
+    "title title title title"
+    "quote quote quote quote"
+    "ccccc authr authr authr"
+    "butto nthng nthng nthng"; */
 }
 
 .title {
-  grid-area: a;
-  align-self: center;
+  grid-column-start: 1;
+  grid-column-end: 4;
+  grid-row-start: 1;
+  grid-row-end: 2;
+  /* align-self: center; */
   justify-self: center;
 }
 
 .quotation {
-  grid-area: b;
+  /* grid-area: quote; */
+  grid-column-start: 1;
+  grid-column-end: 4;
+  grid-row-start: 2;
+  grid-row-end: 4;
+  justify-self: center;
 }
 
 .author {
-  grid-area: f;
-  justify-self: center;
+  grid-area: authr;
+  grid-column-start: 3;
+  grid-column-end: 4;
+  grid-row-start: 3;
+  grid-row-end: 4;
 }
+
+.quotebutton {
+  grid-area: butto;
+  align-self: end;
+  grid-column-start: 1;
+  grid-column-end: 2;
+  grid-row-start: 4;
+  grid-row-end: 5;
+} 
+
