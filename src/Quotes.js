@@ -9,6 +9,14 @@ function Quote(props) {
   );
 }
 
+Quote.defaultProps = {
+  currQuote:
+  {
+    "quote" : "wait for it",
+    "author" : "anon"
+  }
+}
+
 function QuoteButton(props) {
   return (
     <button className='quotebutton' name='quote' onClick={props.onClick} />
