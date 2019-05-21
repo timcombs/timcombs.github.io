@@ -1,9 +1,10 @@
 import React from 'react';
+import './ArtProj.css';
 
 function ArtProj() {
   return (
     <div className='artproj'>
-      <h2 className='projtitle'>Art/Code Projects</h2>
+      <h2 className='artprojtitle'>Art/Code Projects</h2>
       <ul className='projects'>
         <li className='project'>1st</li>
         <li className='project'>2nd</li>

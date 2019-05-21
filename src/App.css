@@ -1,3 +1,16 @@
 body {
-  background-color: rgb(245, 235, 220);
+  background-color: rgb(184, 108, 10);
+
 }
+
+.app {
+  color: rgb(55, 61, 119);
+  width: 95vw;
+  height: 95vh;
+  border-radius: 40px 7px;
+  background-color: rgb(255, 252, 246);
+  margin: 2vw auto;
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  grid-template-rows: 2fr 1fr 1fr;
+};
