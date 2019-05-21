@@ -1,6 +1,31 @@
 .quotesection {
   margin: 0 2vw;
-  /* width: 40vw;
-  height: 40vh; */
   border: 1px solid blue;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-areas:
+    "a a a a"
+    "b b b b"
+    "c d d d"
+    "e f f f";
+}
+
+.quotebutton {
+  grid-area: e;
+  align-self: end;
+}
+
+.title {
+  grid-area: a;
+  align-self: center;
+  justify-self: center;
+}
+
+.quotation {
+  grid-area: b;
+}
+
+.author {
+  grid-area: f;
+  justify-self: center;
 }
