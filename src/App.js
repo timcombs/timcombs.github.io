@@ -5,6 +5,7 @@ import Info from './Info';
 import TeamProj from './TeamProj';
 import ArtProj from './ArtProj';
 import Quotes from './Quotes';
+import Drops from './Drops';
 
 class App extends React.Component {
   constructor(props) {
@@ -54,13 +55,16 @@ class App extends React.Component {
 
   render() {
     return (
-      <div className="app">
-        <Info />
-        <Quotes currQuote={this.state.currQuote}
-                onClick={(e) => this.handleClick(e)}/>
-        <TeamProj />
-        <ArtProj />
+      <div>
+        <div className="app">
+          <Info />
+          <Quotes currQuote={this.state.currQuote}
+                  onClick={(e) => this.handleClick(e)}/>
+          <TeamProj />
+          <ArtProj />
+        </div>
 
+        {/* <Drops /> */}
       </div>
     );
   }
