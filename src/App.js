@@ -55,16 +55,12 @@ class App extends React.Component {
 
   render() {
     return (
-      <div>
-        <div className="app">
-          <Info />
-          <Quotes currQuote={this.state.currQuote}
-                  onClick={(e) => this.handleClick(e)}/>
-          <TeamProj />
-          <ArtProj />
-        </div>
-
-        {/* <Drops /> */}
+      <div className="app">
+        <Info />
+        <Quotes currQuote={this.state.currQuote}
+                onClick={(e) => this.handleClick(e)}/>
+        <TeamProj />
+        <ArtProj />
       </div>
     );
   }

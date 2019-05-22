@@ -4,13 +4,13 @@ import './Quotes.css';
 function Quotation(props) {
   console.log(props.currQuote.quote);
   return (
-    <div>{props.currQuote.quote}</div>
+    <div className='quotation'>{props.currQuote.quote}</div>
   );
 }
 
 function Author(props) {
   return (
-    <div>{props.currQuote.author}</div>
+    <div className='author'>{props.currQuote.author}</div>
   );
 }
 
@@ -24,7 +24,7 @@ Quotes.defaultProps = {
 
 function QuoteButton(props) {
   return (
-    <button name='quote' onClick={props.onClick} />
+    <button className='quotebutton' name='quote' onClick={props.onClick} />
   );
 }
 
@@ -32,9 +32,9 @@ function Quotes(props) {
   return (
     <section className='quotesection'>
       <h2 className='title'>Quote of the Moment</h2>
-      <Quotation className='quotation' currQuote={props.currQuote}/>
-      <Author className='author' currQuote={props.currQuote}/>
-      <QuoteButton className='quotebutton' onClick={props.onClick}/>
+      <Quotation currQuote={props.currQuote}/>
+      <Author currQuote={props.currQuote}/>
+      <QuoteButton onClick={props.onClick}/>
     </section>
   );
 }
