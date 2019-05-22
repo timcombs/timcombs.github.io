@@ -1,14 +1,33 @@
 import React from 'react';
+
+import thestream from './assets/thestream.png';
+import gittherepdx from './assets/gittherepdx.png';
+import imbibeor from './assets/imbibeor.png';
+
 import './ArtProj.css';
 
 function ArtProj() {
   return (
-    <div className='artproj'>
+    <div className='artprojholder'>
       <h2 className='artprojtitle'>Art/Code Projects</h2>
-      <ul className='projects'>
-        <li className='project'>1st</li>
-        <li className='project'>2nd</li>
-        <li className='project'>3rd</li>
+      <ul className='artprojects'>
+      <li className='artproj'>
+          <a href=''>
+            <img src={} alt=''></img>
+          </a>
+        </li>
+
+        <li className='artproj'>
+          <a href='http://www.arthackday.net/projects/tim-combs-quin-kennedy-joshua-hughes-the-stream'>
+            <img src={thestream} alt='The Stream'></img>
+          </a>
+        </li>
+
+        <li className='artproj'>
+          <a href=''>
+            <img src={} alt=''></img>
+          </a>
+        </li>
       </ul>
     </div>
   );

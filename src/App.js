@@ -1,10 +1,11 @@
 import React from 'react';
-import './App.css';
 
 import Info from './Info';
 import TeamProj from './TeamProj';
 import ArtProj from './ArtProj';
 import Quotes from './Quotes';
+
+import './App.css';
 
 class App extends React.Component {
   constructor(props) {
