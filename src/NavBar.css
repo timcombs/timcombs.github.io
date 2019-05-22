@@ -1,13 +1,16 @@
 .navbar {
   width: 45vw;
   margin: 0 2vw;
-  /* bottom: 25%;
-  position: relative; */
 }
 
 .navbutton {
-  margin: 0 0.25vw;
+  margin: 0 2%;
+  height: 4.25vh;
   background-color: rgb(223, 128, 39);
-  width: 5vw;
+  width: 20%;
   border: 0;
+  justify-self: top;
+  padding: 0;
+  border-radius: 10px 2px;
+  font-size: 16px;
 }

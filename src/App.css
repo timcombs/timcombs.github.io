@@ -1,6 +1,7 @@
 body {
   background-color: rgb(184, 108, 10);
-
+  padding: 0;
+  margin: 0;
 }
 
 .app {
@@ -8,7 +9,7 @@ body {
   width: 95vw;
   height: 95vh;
   border-radius: 40px 7px;
-  background-color: rgb(255, 252, 246);
+  background-color: rgb(255, 253, 250);
   margin: 2vw auto;
   display: grid;
   grid-template-columns: 1.5fr 3.5fr;
