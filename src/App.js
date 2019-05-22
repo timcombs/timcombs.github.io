@@ -5,7 +5,6 @@ import Info from './Info';
 import TeamProj from './TeamProj';
 import ArtProj from './ArtProj';
 import Quotes from './Quotes';
-import Drops from './Drops';
 
 class App extends React.Component {
   constructor(props) {
