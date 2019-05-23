@@ -1,8 +1,7 @@
 import React from 'react';
 
 import thestream from './assets/thestream.png';
-import gittherepdx from './assets/gittherepdx.png';
-import imbibeor from './assets/imbibeor.png';
+import neverfind from './assets/neverfind.png';
 
 import './ArtProj.css';
 
@@ -12,8 +11,8 @@ function ArtProj() {
       <h2 className='artprojtitle'>Art/Code Projects</h2>
       <ul className='artprojects'>
       <li className='artproj'>
-          <a href=''>
-            <img src={} alt=''></img>
+          <a href='https://github.com/timcombs/never-find'>
+            <img src={neverfind} alt='It is Hard to Get to Where You Will Never Find'></img>
           </a>
         </li>
 
@@ -25,7 +24,7 @@ function ArtProj() {
 
         <li className='artproj'>
           <a href=''>
-            <img src={} alt=''></img>
+            {/* <img src={} alt=''></img> */}
           </a>
         </li>
       </ul>
