@@ -1,7 +1,7 @@
 .info {
   font-family: Verdana, sans-serif;
-  margin: 2vw;
-  border: 1px solid red;
+  margin: 0 2vw;
+  margin-bottom: 1vh;
 }
 
 .name {

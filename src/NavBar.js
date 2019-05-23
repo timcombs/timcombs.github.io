@@ -10,10 +10,10 @@ library.add(fab);
   function NavBar(props) {
     return (
       <nav className='navbar'>
-        <button className='navbutton' name='linkedin' onClick={props.onClick}><FontAwesomeIcon icon={['fab', 'linkedin']} /></button>
-        <button className='navbutton' name='github' onClick={props.onClick}><FontAwesomeIcon icon={['fab', 'github']} /></button>
-        <button className='navbutton' name='about' onClick={props.onClick}>About</button>
-        <button className='navbutton' name='blog' onClick={props.onClick}>Blog</button>
+        <a className='navbutton' name='linkedin' href='https://www.linkedin.com/in/timothycombs/' onClick={props.onClick}><FontAwesomeIcon icon={['fab', 'linkedin']} /></a>
+        <a className='navbutton' name='github' href='https://github.com/timcombs' onClick={props.onClick}><FontAwesomeIcon icon={['fab', 'github']} /></a>
+        <a className='navbutton' name='about' href='' onClick={props.onClick}>About</a>
+        <a className='navbutton' name='blog' href='' onClick={props.onClick}>Blog</a>
       </nav>
     );
 }

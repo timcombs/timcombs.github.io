@@ -1,16 +1,17 @@
 .navbar {
   width: 45vw;
-  margin: 0 2vw;
+  margin: 0 1vw;
 }
 
 .navbutton {
+  display: inline-block;
   margin: 0 2%;
   height: 4.25vh;
   background-color: rgb(223, 128, 39);
-  width: 20%;
   border: 0;
-  justify-self: top;
-  padding: 0;
+  text-align: center;
+  padding: 1.2vh 0 0 0;
   border-radius: 10px 2px;
-  font-size: 16px;
+  font-size: 18px;
+  width: 8vw;
 }

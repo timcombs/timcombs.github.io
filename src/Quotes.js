@@ -10,7 +10,7 @@ function Quotation(props) {
 
 function Author(props) {
   return (
-    <div className='author'>{props.currQuote.author}</div>
+    <div className='author'>-{props.currQuote.author}</div>
   );
 }
 
@@ -24,7 +24,11 @@ Quotes.defaultProps = {
 
 function QuoteButton(props) {
   return (
+    <div>
     <button className='quotebutton' name='quote' onClick={props.onClick} />
+    <button className='quotebutton' name='quote' onClick={props.onClick} />
+    <button className='quotebutton' name='quote' onClick={props.onClick} />
+    </div>
   );
 }
 

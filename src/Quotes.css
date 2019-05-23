@@ -1,48 +1,34 @@
 .quotesection {
   margin: 0 2vw;
-  border: 1px solid blue;
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  grid-template-rows: repeat(4, 0.5fr);
-  /* grid-template-areas:
-    "title title title title"
-    "quote quote quote quote"
-    "ccccc authr authr authr"
-    "butto nthng nthng nthng"; */
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
 }
 
 .title {
-  grid-column-start: 1;
-  grid-column-end: 4;
-  grid-row-start: 1;
-  grid-row-end: 2;
-  /* align-self: center; */
-  justify-self: center;
+  padding: 0;
+  margin: 2vh 0;
+  text-align: center;
 }
 
 .quotation {
-  /* grid-area: quote; */
-  grid-column-start: 1;
-  grid-column-end: 4;
-  grid-row-start: 2;
-  grid-row-end: 4;
-  justify-self: center;
+  overflow: scroll;
 }
 
 .author {
-  grid-area: authr;
-  grid-column-start: 3;
-  grid-column-end: 4;
-  grid-row-start: 3;
-  grid-row-end: 4;
+  text-align: right;
 }
 
 .quotebutton {
-  grid-area: butto;
-  align-self: end;
-  grid-column-start: 1;
-  grid-column-end: 2;
-  grid-row-start: 4;
-  grid-row-end: 5;
+  margin: auto 1% 1% 1%;
+  display: inline-block;
+  height: 4.25vh;
+  background-color: rgb(223, 128, 39);
+  border: 0;
+  text-align: center;
+  padding: 1.2vh 0 0 0;
+  border-radius: 10px 2px;
+  font-size: 18px;
+  width: 8vw;
 } 
 
