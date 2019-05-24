@@ -1,3 +1,7 @@
+.infocontainer {
+  align-self: end;
+}
+
 .info {
   font-family: Verdana, sans-serif;
   margin: 0 2vw;
@@ -14,5 +18,5 @@
 }
 
 .motto {
-  font-size: 10px;
+  font-size: 12px;
 }

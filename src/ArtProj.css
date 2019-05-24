@@ -6,6 +6,8 @@
 }
 
 .artprojtitle {
+  padding: 0;
+  margin: 2vh 0 1vh 0;
   text-align: center;
 }
 

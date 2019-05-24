@@ -25,9 +25,9 @@ Quotes.defaultProps = {
 function QuoteButton(props) {
   return (
     <div>
-    <button className='quotebutton' name='quote' onClick={props.onClick} />
-    <button className='quotebutton' name='quote' onClick={props.onClick} />
-    <button className='quotebutton' name='quote' onClick={props.onClick} />
+    <button className='quotebutton' name='quote' onClick={props.onClick}>Git Quote</button>
+    <button className='quotebutton' name='quote' onClick={props.onClick}>Git Quote</button>
+    <button className='quotebutton' name='quote' onClick={props.onClick}>Git Quote</button>
     </div>
   );
 }
