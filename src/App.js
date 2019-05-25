@@ -19,10 +19,10 @@ class App extends React.Component {
 
   async componentDidMount() {
     const radicalURL = 'https://raw.githubusercontent.com/timcombs/marx-headmon/master/quotes.json';
-    const diverseURL = 'https://raw.githubusercontent.com/timcombs/marx-headmon/master/quotes.json';
-    const snarkURL = 'https://raw.githubusercontent.com/timcombs/marx-headmon/master/quotes.json';
+    const subalternURL = 'https://raw.githubusercontent.com/timcombs/underrepped_programmer_quotes/master/quotes.json';
+    const snarkURL = 'https://raw.githubusercontent.com/timcombs/snarky_software_quotes/master/quotes.json';
 
-    const quotesURLArr = [radicalURL, diverseURL, snarkURL];
+    const quotesURLArr = [radicalURL, subalternURL, snarkURL];
 
     try {
       for (let i = 0; i < quotesURLArr.length; i++) {
@@ -45,16 +45,22 @@ class App extends React.Component {
   }
 
   handleClick(e) {
-    const { quotes, currQuote: { quote, author } } = this.state;
+    const { quotes } = this.state;
     const clicked = e.target.name;
+    let num;
 
-    if (clicked === 'quote') {
-      this.setState({
-        currQuote: this.getQuote(quotes)
-      });
-    }else{
-      alert('oops!');
+
+    if (clicked === 'radical') {
+      num = 0;
+    }else if (clicked === 'subaltern') {
+      num = 1;
+    }else if (clicked === 'snark') {
+      num = 2;
     }
+
+    this.setState({
+      currQuote: this.getQuote(quotes[num])
+    });
   }
 
   getQuote(arr) {
