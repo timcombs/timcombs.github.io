@@ -6,12 +6,13 @@
 .navbutton {
   display: inline-block;
   margin: 0 2%;
-  height: 4.25vh;
+  height: 3.5vh;
   background-color: rgb(223, 128, 39);
   border: 0;
   text-align: center;
-  padding: 1.2vh 0 0 0;
+  padding: 0.65vh 0 0 0;
   border-radius: 10px 2px;
-  font-size: 18px;
+  font-size: 16px;
   width: 8vw;
+  text-decoration: none;
 }

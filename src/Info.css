@@ -1,3 +1,9 @@
+@font-face {
+  font-family: 'sansforgetica-reg';
+  src:  local('sansforgetica-reg'),
+        url('./fonts/sansforgetica-reg.otf');
+}
+
 .infocontainer {
   align-self: end;
 }
@@ -8,9 +14,14 @@
   margin-bottom: 1vh;
 }
 
+.sansfont {
+  font-family: sansforgetica-reg, sans-serif;
+}
+
 .name {
+  font-family: sansforgetica-reg, sans-serif;
   font-size: 90px;
-  letter-spacing: -0.15em;
+  letter-spacing: -0.1em;
 }
 
 .interests {

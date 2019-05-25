@@ -10,6 +10,7 @@ import './App.css';
 class App extends React.Component {
   constructor(props) {
     super(props);
+    this.handleClick = this.handleClick.bind(this);
     this.state = {
       quotes: [],
       currQuote: {},
@@ -17,18 +18,27 @@ class App extends React.Component {
   }
 
   async componentDidMount() {
-    const marxHeadmonURL = 'https://raw.githubusercontent.com/timcombs/marx-headmon/master/quotes.json';
-    console.log('starting fetch');
+    const radicalURL = 'https://raw.githubusercontent.com/timcombs/marx-headmon/master/quotes.json';
+    const diverseURL = 'https://raw.githubusercontent.com/timcombs/marx-headmon/master/quotes.json';
+    const snarkURL = 'https://raw.githubusercontent.com/timcombs/marx-headmon/master/quotes.json';
+
+    const quotesURLArr = [radicalURL, diverseURL, snarkURL];
 
     try {
-      const blob = await fetch(marxHeadmonURL);
-      const text = await blob.text();
-      const { quotes } = await JSON.parse(text);
-      this.setState({
-        quotes,
-        currQuote: this.getQuote(quotes)
+      for (let i = 0; i < quotesURLArr.length; i++) {
+        const blob = await fetch(quotesURLArr[i]);
+        const text = await blob.text();
+        const { quotes } = await JSON.parse(text);
+        let holder = this.state.quotes;
+        holder.push(quotes);
+        this.setState({
+          quotes: holder
+        })
+      }
+      let rnd = Math.floor(Math.random() * 3);
+      await this.setState({
+        currQuote: this.getQuote(this.state.quotes[rnd])
       });
-      await console.log(this.state);
     }catch(err){
       console.log(err);
     }

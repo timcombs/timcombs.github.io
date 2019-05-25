@@ -2,7 +2,7 @@ import React from 'react';
 import './Quotes.css';
 
 function Quotation(props) {
-  console.log(props.currQuote.quote);
+  // console.log(props.currQuote.quote);
   return (
     <div className='quotation'>{props.currQuote.quote}</div>
   );
