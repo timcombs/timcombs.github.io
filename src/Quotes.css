@@ -19,8 +19,12 @@
   text-align: right;
 }
 
+.buttonholder {
+  margin: auto 1% 0 0;
+}
+
 .quotebutton {
-  margin: auto 1% 1% 1%;
+  margin: 0 1% 0 0.5%;
   display: inline-block;
   height: 4.25vh;
   background-color: rgb(223, 128, 39);

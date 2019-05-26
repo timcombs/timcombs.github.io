@@ -24,7 +24,7 @@ Quotes.defaultProps = {
 
 function QuoteButton(props) {
   return (
-    <div>
+    <div className='buttonholder'>
     <button className='quotebutton' name='radical' onClick={props.onClick}>Rad Quote</button>
     <button className='quotebutton' name='subaltern' onClick={props.onClick}>URG Quote</button>
     <button className='quotebutton' name='snark' onClick={props.onClick}>Snark Quote</button>

@@ -1,21 +1,22 @@
 .teamprojholder {
-  border: 1px solid purple;
   grid-row-start: 2;
   grid-column-start: 1;
-  grid-column-end: 3;
+  grid-column-end: 4;
+  grid-row-end: 3;
+  height: 60vh;
 }
 
 .teamprojtitle {
   padding: 0;
-  margin: 2vh 0 0.5vh 0;
+  margin: 2.2vh 0 0.5vh 0;
   text-align: center;
-  font-size: 20px;
 }
 
 .teamprojects {
   padding: 0;
   list-style: none;
   display: flex;
+  flex-flow: row wrap;
   align-items: center;
   justify-content: center;
   margin: 0;
@@ -26,6 +27,6 @@
 }
 
 img {
-  height: 24vh;
+  height: 28vh;
   margin: 0 5%;
 }

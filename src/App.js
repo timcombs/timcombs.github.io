@@ -2,7 +2,6 @@ import React from 'react';
 
 import Info from './Info';
 import TeamProj from './TeamProj';
-import ArtProj from './ArtProj';
 import Quotes from './Quotes';
 
 import './App.css';
@@ -76,7 +75,6 @@ class App extends React.Component {
         <Quotes currQuote={this.state.currQuote}
                 onClick={(e) => this.handleClick(e)}/>
         <TeamProj />
-        <ArtProj />
       </div>
     );
   }
