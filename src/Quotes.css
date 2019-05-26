@@ -3,6 +3,7 @@
   display: flex;
   flex-direction: column;
   overflow: hidden;
+  font-family: Lekton-Regular, sans-serif, monospace;
 }
 
 .title {
@@ -13,6 +14,7 @@
 
 .quotation {
   overflow: scroll;
+
 }
 
 .author {

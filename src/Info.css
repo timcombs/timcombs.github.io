@@ -1,15 +1,10 @@
-@font-face {
-  font-family: 'sansforgetica-reg';
-  src:  local('sansforgetica-reg'),
-        url('./fonts/sansforgetica-reg.otf');
-}
-
 .infocontainer {
   align-self: end;
 }
 
 .info {
-  font-family: Verdana, sans-serif;
+  font-family: Lekton-Regular, sans-serif, monospace;
+  font-size: 14px;
   margin: 0 2vw;
   margin-bottom: 1vh;
 }
@@ -25,7 +20,6 @@
 }
 
 .interests {
-  font-size: 12px;
 }
 
 .motto {

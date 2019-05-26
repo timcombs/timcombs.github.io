@@ -1,3 +1,15 @@
+@font-face {
+  font-family: 'sansforgetica-reg';
+  src:  local('sansforgetica-reg'),
+        url('./fonts/sansforgetica-reg.otf');
+}
+
+@font-face {
+  font-family: 'Lekton-Italic';
+  src:  local('Lekton-Italic'),
+        url('./fonts/Lekton-Italic.ttf');
+}
+
 body {
   background-color: rgb(184, 108, 10);
   padding: 0;
