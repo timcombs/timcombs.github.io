@@ -10,6 +10,12 @@
         url('./fonts/Lekton-Italic.ttf');
 }
 
+@font-face {
+  font-family: 'Rueck-Left';
+  src:  local('Rueck-Left'),
+        url('./fonts/Rueck-Left.ttf');
+}
+
 body {
   background-color: rgb(184, 108, 10);
   padding: 0;

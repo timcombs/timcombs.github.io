@@ -9,6 +9,11 @@
   margin-bottom: 1vh;
 }
 
+.list {
+  font-family: Lekton-Italic, sans-serif, monospace;
+  font-size: 20px;
+}
+
 .sansfont {
   font-family: sansforgetica-reg, sans-serif;
 }

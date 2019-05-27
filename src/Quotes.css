@@ -6,7 +6,10 @@
   font-family: Lekton-Regular, sans-serif, monospace;
 }
 
+/* Strlgrv Strlbrv */
+
 .title {
+  font-family: Lekton-Italic, sans-serif, monospace;
   padding: 0;
   margin: 2vh 0;
   text-align: center;
