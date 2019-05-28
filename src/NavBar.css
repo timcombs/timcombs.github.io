@@ -1,18 +1,39 @@
 .navbar {
-  width: 45vw;
-  margin: 0 1vw;
+  width: 75vw;
+  margin: 0 0.5vw;
 }
 
 .navbutton {
   display: inline-block;
-  margin: 0 2%;
-  height: 3.5vh;
+  margin: 0 1%;
+  height: 4vh;
+  width: 10.5vw;
   background-color: rgb(223, 128, 39);
   border: 0;
   text-align: center;
   padding: 0.65vh 0 0 0;
   border-radius: 10px 2px;
   font-size: 16px;
-  width: 8vw;
   text-decoration: none;
+}
+
+@media screen and (min-width: 1400) {
+  .navbar {
+    width: 45vw;
+    margin: 0 1vw;
+  }
+  
+  .navbutton {
+    display: inline-block;
+    margin: 0 2%;
+    height: 3.5vh;
+    background-color: rgb(223, 128, 39);
+    border: 0;
+    text-align: center;
+    padding: 0.65vh 0 0 0;
+    border-radius: 10px 2px;
+    font-size: 16px;
+    width: 8vw;
+    text-decoration: none;
+  }
 }

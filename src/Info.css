@@ -20,7 +20,7 @@
 
 .name {
   font-family: sansforgetica-reg, sans-serif;
-  font-size: 90px;
+  font-size: 45px;
   letter-spacing: -0.1em;
 }
 
@@ -29,4 +29,39 @@
 
 .motto {
   font-size: 12px;
+}
+
+@media screen and (min-width: 1400px) {
+  .infocontainer {
+    align-self: end;
+  }
+  
+  .info {
+    font-family: Lekton-Regular, sans-serif, monospace;
+    font-size: 14px;
+    margin: 0 2vw;
+    margin-bottom: 1vh;
+  }
+  
+  .list {
+    font-family: Lekton-Italic, sans-serif, monospace;
+    font-size: 20px;
+  }
+  
+  .sansfont {
+    font-family: sansforgetica-reg, sans-serif;
+  }
+  
+  .name {
+    font-family: sansforgetica-reg, sans-serif;
+    font-size: 90px;
+    letter-spacing: -0.1em;
+  }
+  
+  .interests {
+  }
+  
+  .motto {
+    font-size: 12px;
+  }
 }
