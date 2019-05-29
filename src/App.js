@@ -46,10 +46,11 @@ class App extends React.Component {
   handleClick(e) {
     const { quotes } = this.state;
     const clicked = e.target.name;
+    console.log(clicked);
     let num;
 
 
-    if (clicked === 'radical') {
+    if (clicked === 'radical' || clicked === 'grimace') {
       num = 0;
     }else if (clicked === 'subaltern') {
       num = 1;

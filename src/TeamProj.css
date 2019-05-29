@@ -1,16 +1,17 @@
 .teamprojholder {
-  margin: 0;
+  margin: 4vh 0 0 0;
   grid-row-start: 2;
   grid-column-start: 1;
   grid-column-end: 4;
   grid-row-end: 3;
-  height: 60vh;
+  height: 60%;
+  /* overflow: scroll; */
 }
 
 .teamprojtitle {
   font-family: Lekton-Italic, sans-serif, monospace;
   padding: 0;
-  margin: 4.0vh 0 0.5vh 0;
+  margin: 4.5vh 0 0.5vh 0;
   text-align: center;
 }
 
@@ -21,7 +22,8 @@
   flex-flow: row wrap;
   align-items: center;
   justify-content: center;
-  margin: 0;
+  height: 52.5%;
+  overflow: scroll;
 }
 
 .teamproj {
@@ -31,4 +33,41 @@
 img {
   height: 23vh;
   margin: 0 5%;
+}
+
+@media screen and (min-width: 1200px) {
+  .teamprojholder {
+    margin: 0;
+    grid-row-start: 2;
+    grid-column-start: 1;
+    grid-column-end: 4;
+    grid-row-end: 3;
+    height: 60vh;
+  }
+  
+  .teamprojtitle {
+    font-family: Lekton-Italic, sans-serif, monospace;
+    padding: 0;
+    margin: 4.0vh 0 0.5vh 0;
+    text-align: center;
+  }
+  
+  .teamprojects {
+    padding: 0;
+    list-style: none;
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+  }
+  
+  .teamproj {
+    display: inline;
+  }
+  
+  img {
+    height: 23vh;
+    margin: 0 5%;
+  }
 }

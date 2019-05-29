@@ -17,7 +17,7 @@
   text-decoration: none;
 }
 
-@media screen and (min-width: 1400) {
+@media screen and (min-width: 1200px) {
   .navbar {
     width: 45vw;
     margin: 0 1vw;

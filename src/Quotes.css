@@ -1,9 +1,9 @@
 .quotesection {
-  margin: 0 2vw;
+  font-family: Lekton-Regular, sans-serif, monospace;
+  margin: 4.5vh 2vw 0 2vw;
   display: flex;
   flex-direction: column;
-  overflow: hidden;
-  font-family: Lekton-Regular, sans-serif, monospace;
+  min-height: 25%;
 }
 
 /* Strlgrv Strlbrv */
@@ -30,14 +30,60 @@
 
 .quotebutton {
   margin: 0 1% 0 0.5%;
+  font-family: Lekton-Regular, sans-serif, monospace;
+  color: rgb(55, 61, 119);
   display: inline-block;
   height: 4.25vh;
   background-color: rgb(223, 128, 39);
   border: 0;
   text-align: center;
-  padding: 1.2vh 0 0 0;
+  padding: 0.5vh 0 0.5vh 0;
   border-radius: 10px 2px;
   font-size: 18px;
   width: 12vw;
 } 
 
+@media screen and (min-width: 1200px) {
+  .quotesection {
+    margin: 0 2vw;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    font-family: Lekton-Regular, sans-serif, monospace;
+  }
+  
+  /* Strlgrv Strlbrv */
+  
+  .title {
+    font-family: Lekton-Italic, sans-serif, monospace;
+    padding: 0;
+    margin: 2vh 0;
+    text-align: center;
+  }
+  
+  .quotation {
+    overflow: scroll;
+  
+  }
+  
+  .author {
+    text-align: right;
+  }
+  
+  .buttonholder {
+    margin: auto 1% 0 0;
+  }
+  
+  .quotebutton {
+    margin: 0 1% 0 0.5%;
+    display: inline-block;
+    height: 4.25vh;
+    background-color: rgb(223, 128, 39);
+    border: 0;
+    text-align: center;
+    padding: 1.2vh 0 0 0;
+    border-radius: 10px 2px;
+    font-size: 18px;
+    width: 12vw;
+  }
+}

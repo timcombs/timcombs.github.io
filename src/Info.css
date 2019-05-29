@@ -1,5 +1,6 @@
 .infocontainer {
   align-self: end;
+  margin-top: 3vh;
 }
 
 .info {
@@ -31,7 +32,7 @@
   font-size: 12px;
 }
 
-@media screen and (min-width: 1400px) {
+@media screen and (min-width: 1200px) {
   .infocontainer {
     align-self: end;
   }
