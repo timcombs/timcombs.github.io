@@ -60,7 +60,7 @@
 
 @media screen and (min-width: 900px) {
   .infocontainer {
-    margin-top: 4vh;
+    margin-top: 3.5vh;
   }
 
   .name {
@@ -75,7 +75,7 @@
 
 @media screen and (min-width: 1200px) {
   .infocontainer {
-    margin-top: 3.5vh;
+    margin-top: 3vh;
   }
 
   .info {
@@ -88,5 +88,11 @@
   
   .motto {
     font-size: 12px;
+  }
+}
+
+@media screen and (min-width: 1400px) {
+  .infocontainer {
+    margin-top: 3.5vh;
   }
 }

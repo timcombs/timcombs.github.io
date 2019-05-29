@@ -54,7 +54,19 @@ img {
 
 @media screen and (min-width: 1200px) {
   .teamprojholder {
-    margin: 4vh 0 0 0;
+    height: 90vh;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .teamprojholder {
+    margin: 3.25vh 0 0 0;
+    height: 90vh;
+  }
+}
+@media screen and (min-width: 1400px) {
+  .teamprojholder {
+    margin: 3.5vh 0 0 0;
     height: 90vh;
   }
 }
