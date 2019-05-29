@@ -3,6 +3,7 @@
   margin: 2.75vh 2vw 0 2vw;
   display: flex;
   flex-direction: column;
+  min-height: 25%;
 }
 
 /* Strlgrv Strlbrv */
@@ -16,7 +17,6 @@
 
 .quotation {
   overflow: scroll;
-
 }
 
 .author {
