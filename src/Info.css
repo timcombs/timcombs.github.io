@@ -1,65 +1,89 @@
 .infocontainer {
   align-self: end;
-  margin-top: 3vh;
+  margin-top: 2vh;
 }
 
 .info {
   font-family: Lekton-Regular, sans-serif, monospace;
-  font-size: 14px;
+  font-size: 10px;
   margin: 0 2vw;
   margin-bottom: 1vh;
 }
 
 .list {
   font-family: Lekton-Italic, sans-serif, monospace;
-  font-size: 20px;
-}
-
-.sansfont {
-  font-family: sansforgetica-reg, sans-serif;
+  font-size: 18px;
 }
 
 .name {
   font-family: sansforgetica-reg, sans-serif;
   font-size: 45px;
   letter-spacing: -0.1em;
-}
-
-.interests {
+  margin-bottom: 1vh;
 }
 
 .motto {
-  font-size: 12px;
+  font-size: 9px;
+}
+
+/* *************** Media Queries **************** */
+
+@media screen and (min-width: 480px) {
+  .info {
+    font-size: 12px;
+  }
+  
+  .name {
+    font-size: 53px;
+  }
+
+  .list {
+    font-size: 20px
+  }
+}
+
+@media screen and (min-width: 600px) {
+ .name {
+    font-size: 70px;
+  }
+}
+
+@media screen and (min-width: 760px) {
+  .name {
+    font-size: 60px;
+  }
+
+  .motto {
+    font-size: 10px;
+  }
+}
+
+@media screen and (min-width: 900px) {
+  .infocontainer {
+    margin-top: 4vh;
+  }
+
+  .name {
+    font-size: 75px;
+    margin-bottom: 0.5vh;
+  }
+
+  .motto {
+    font-size: 11px;
+  }
 }
 
 @media screen and (min-width: 1200px) {
   .infocontainer {
-    align-self: end;
+    margin-top: 3.5vh;
   }
-  
+
   .info {
-    font-family: Lekton-Regular, sans-serif, monospace;
     font-size: 14px;
-    margin: 0 2vw;
-    margin-bottom: 1vh;
   }
-  
-  .list {
-    font-family: Lekton-Italic, sans-serif, monospace;
-    font-size: 20px;
-  }
-  
-  .sansfont {
-    font-family: sansforgetica-reg, sans-serif;
-  }
-  
+
   .name {
-    font-family: sansforgetica-reg, sans-serif;
     font-size: 90px;
-    letter-spacing: -0.1em;
-  }
-  
-  .interests {
   }
   
   .motto {

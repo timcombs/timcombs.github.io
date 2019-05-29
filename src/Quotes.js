@@ -2,11 +2,11 @@ import React from 'react';
 
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { library } from '@fortawesome/fontawesome-svg-core';
-import { faGrinWink, faGrin, faGrimace } from '@fortawesome/free-solid-svg-icons';
+import { faGrinTongueWink, faGrin, faGrimace } from '@fortawesome/free-solid-svg-icons';
 
 import './Quotes.css';
 
-library.add(faGrinWink, faGrin, faGrimace);
+library.add(faGrinTongueWink, faGrin, faGrimace);
 
 function Quotation(props) {
   // console.log(props.currQuote.quote);
@@ -32,9 +32,9 @@ Quotes.defaultProps = {
 function QuoteButton(props) {
   return (
     <div className='buttonholder'>
-    <button className='quotebutton' name='radical' onClick={props.onClick}><FontAwesomeIcon name='radical' icon='grimace' /></button>
-    <button className='quotebutton' name='subaltern' onClick={props.onClick}><FontAwesomeIcon name='subaltern' icon='grin' /></button>
-    <button className='quotebutton' name='snark' onClick={props.onClick}><FontAwesomeIcon name='snark' icon='grin-wink' /></button>
+    <button className='quotebutton' name='radical' onClick={props.onClick}><FontAwesomeIcon icon='grimace' /></button>
+    <button className='quotebutton' name='subaltern' onClick={props.onClick}><FontAwesomeIcon icon='grin'/></button>
+    <button className='quotebutton' name='snark' onClick={props.onClick}><FontAwesomeIcon icon='grin-tongue-wink'/></button>
     </div>
   );
 }

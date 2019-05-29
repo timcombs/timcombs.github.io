@@ -12,8 +12,8 @@ library.add(fab);
       <nav className='navbar'>
         <a className='navbutton' name='linkedin' href='https://www.linkedin.com/in/timothycombs/' onClick={props.onClick}><FontAwesomeIcon icon={['fab', 'linkedin']} /></a>
         <a className='navbutton' name='github' href='https://github.com/timcombs' onClick={props.onClick}><FontAwesomeIcon icon={['fab', 'github']} /></a>
-        <a className='navbutton' name='about' href='' onClick={props.onClick}>About</a>
-        <a className='navbutton' name='blog' href='' onClick={props.onClick}>Blog</a>
+        <a className='navbutton noticon' name='about' href='' onClick={props.onClick}>About</a>
+        <a className='navbutton noticon' name='blog' href='' onClick={props.onClick}>Blog</a>
       </nav>
     );
 }

@@ -25,7 +25,6 @@ body {
   color: rgb(55, 61, 119);
   width: 95vw;
   height: 95vh;
-  min-height: 500px;
   border-radius: 7px 7px;
   background-color: rgb(255, 253, 250);
   margin: 2vw auto;
@@ -33,11 +32,31 @@ body {
   flex-flow: column;
 }
 
-@media screen and (min-width: 1200px) {
+/* *************** Media Queries **************** */
+
+@media screen and (min-width: 600px) {
   .app {
-    border-radius: 40px 7px;
+    border-radius: 15px 7px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .app {
+    border-radius: 20px 7px;
+  }
+}
+
+@media screen and (min-width: 900px) {
+  .app {
+    border-radius: 30px 7px;
     display: grid;
     grid-template-columns: 1.5fr 3.5fr;
     grid-template-rows: 1.5fr 1fr 1fr;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .app {
+    border-radius: 40px 7px;
   }
 }
