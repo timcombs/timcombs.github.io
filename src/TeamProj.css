@@ -5,7 +5,6 @@
   grid-column-end: 4;
   grid-row-end: 3;
   height: 60vh;
-  /* overflow: hidden; */
 }
 
 .teamprojtitle {
@@ -32,7 +31,6 @@
 
 img {
   height: 23vh;
-  margin: 0 5%;
 }
 
 /* *************** Media Queries **************** */
