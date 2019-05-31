@@ -5,6 +5,7 @@ import gittherepdx from './assets/gittherepdx.png';
 import imbibeor from './assets/imbibe-or.png';
 import thestream from './assets/thestream.png';
 import neverfind from './assets/neverfind.png';
+import cellautobota from './assets/cellautobota.png';
 
 import './TeamProj.css'
 
@@ -14,8 +15,8 @@ function TeamProj() {
       <h2 className='teamprojtitle'>Projects</h2>
       <ul className='teamprojects'>
         <li className='teamproj'>
-          <a href='https://portamento.herokuapp.com'>
-            <img src={portamento} alt='Portamento'></img>
+          <a href='https://gitTherePDX.herokuapp.com'>
+            <img src={gittherepdx} alt='gitTherePDX'></img>
           </a>
         </li>
 
@@ -26,8 +27,14 @@ function TeamProj() {
         </li>
 
         <li className='teamproj'>
-          <a href='https://gitTherePDX.herokuapp.com'>
-            <img src={gittherepdx} alt='gitTherePDX'></img>
+          <a href='https://github.com/timcombs/never-find'>
+            <img src={neverfind} alt='It is Hard to Get to Where You Will Never Find'></img>
+          </a>
+        </li>
+
+        <li className='teamproj'>
+          <a href='https://portamento.herokuapp.com'>
+            <img src={portamento} alt='Portamento'></img>
           </a>
         </li>
 
@@ -38,8 +45,8 @@ function TeamProj() {
         </li>
 
         <li className='teamproj'>
-          <a href='https://github.com/timcombs/never-find'>
-            <img src={neverfind} alt='It is Hard to Get to Where You Will Never Find'></img>
+          <a href='https://twitter.com/cellAutobota'>
+            <img src={cellautobota} alt='CellAutobota'></img>
           </a>
         </li>
       </ul>
