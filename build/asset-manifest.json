@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/static/css/main.11460e03.chunk.css",
+    "main.js": "/static/js/main.1d479e0c.chunk.js",
+    "main.js.map": "/static/js/main.1d479e0c.chunk.js.map",
+    "runtime~main.js": "/static/js/runtime~main.a8a9905a.js",
+    "runtime~main.js.map": "/static/js/runtime~main.a8a9905a.js.map",
+    "static/js/2.c5fe9dad.chunk.js": "/static/js/2.c5fe9dad.chunk.js",
+    "static/js/2.c5fe9dad.chunk.js.map": "/static/js/2.c5fe9dad.chunk.js.map",
+    "index.html": "/index.html",
+    "precache-manifest.fc1761f04720a6f4e0c2266ab670cb5f.js": "/precache-manifest.fc1761f04720a6f4e0c2266ab670cb5f.js",
+    "service-worker.js": "/service-worker.js",
+    "static/css/main.11460e03.chunk.css.map": "/static/css/main.11460e03.chunk.css.map",
+    "static/media/App.css": "/static/media/sansforgetica-reg.0399ab68.otf",
+    "static/media/cellautobota.png": "/static/media/cellautobota.74f4a1be.png",
+    "static/media/gittherepdx.png": "/static/media/gittherepdx.459495ac.png",
+    "static/media/imbibe-or.png": "/static/media/imbibe-or.c7597c26.png",
+    "static/media/neverfind.png": "/static/media/neverfind.3358ae10.png",
+    "static/media/portamento.png": "/static/media/portamento.a2274a58.png",
+    "static/media/thestream.png": "/static/media/thestream.7b5c5f34.png"
+  }
+}
