@@ -1,19 +1,19 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "2dbd3d03969bb83a6532fd643471a3d0",
+    "revision": "ec686c11fba965b8bbfa1cd6e59e0716",
     "url": "/index.html"
   },
   {
-    "revision": "282a2a9dc450a5e368a5",
-    "url": "/static/css/main.11460e03.chunk.css"
+    "revision": "7c803fa7104b0b3479ef",
+    "url": "/static/css/main.7d7bf61a.chunk.css"
   },
   {
-    "revision": "ca6d6a8f6f31c5796eba",
-    "url": "/static/js/2.c5fe9dad.chunk.js"
+    "revision": "848ef273bda0a69ec64e",
+    "url": "/static/js/2.46ad8f58.chunk.js"
   },
   {
-    "revision": "282a2a9dc450a5e368a5",
-    "url": "/static/js/main.1d479e0c.chunk.js"
+    "revision": "7c803fa7104b0b3479ef",
+    "url": "/static/js/main.aded01e6.chunk.js"
   },
   {
     "revision": "42ac5946195a7306e2a5",
@@ -36,6 +36,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/gittherepdx.459495ac.png"
   },
   {
+    "revision": "98f4528c4d4862bd616ce33b753419a0",
+    "url": "/static/media/glades-in-dark-forests.98f4528c.png"
+  },
+  {
     "revision": "c7597c26be4a932c9e944889ae373c55",
     "url": "/static/media/imbibe-or.c7597c26.png"
   },
@@ -54,5 +58,9 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "7b5c5f34f5741fc0195f383987c3feb4",
     "url": "/static/media/thestream.7b5c5f34.png"
+  },
+  {
+    "revision": "23cc1a302387d8c217731dce18c0d58e",
+    "url": "/static/media/woc.23cc1a30.png"
   }
 ]);
